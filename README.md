@@ -14,3 +14,9 @@ A RESTful API built with Spring Boot 3.5 to generate unique, scalable tracking n
 
 ```bash
 ./gradlew bootRun
+🌐 Live Application
+API Base URL
+http://tracking-service-production-ec2e.up.railway.app
+
+Swagger Documentation
+https://tracking-service-production-ec2e.up.railway.app/swagger-ui.html
