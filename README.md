@@ -8,6 +8,7 @@ A RESTful API built with Spring Boot 3.5 to generate unique, scalable tracking n
 - Gradle
 - Spring Web, Validation
 - SpringDoc OpenAPI
+- Redis
 
 
 ## 🚀 How to Run
