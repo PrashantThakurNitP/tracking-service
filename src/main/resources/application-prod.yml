@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    redis:
+      host: {REDIS_HOST}
+      port: 15313
+      username: {REDIS_USERNAME}
+      password: {REDIS_PASSWORD}
+      ssl:
+        enabled: false
