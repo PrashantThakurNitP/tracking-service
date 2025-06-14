@@ -4,9 +4,9 @@ server:
 spring:
   data:
     redis:
-      host: {REDIS_HOST}
+      host: ${REDIS_HOST}
       port: 15313
-      username: {REDIS_USERNAME}
-      password: {REDIS_PASSWORD}
+      username: ${REDIS_USERNAME}
+      password: ${REDIS_PASSWORD}
       ssl:
         enabled: false
