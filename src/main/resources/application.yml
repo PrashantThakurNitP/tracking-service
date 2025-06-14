@@ -5,7 +5,7 @@ server:
 
 spring:
   profiles:
-    active: ${ENV:prod}
+    active: ${SPRING_PROFILES_ACTIVE:prod}
   data:
     redis:
       host: localhost
